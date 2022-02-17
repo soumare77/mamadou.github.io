@@ -1,0 +1,359 @@
+/* pour les smartphones */
+@media all and (max-width: 768px) {
+
+   
+    h1 {
+        margin-top: 3vh;
+        margin-bottom: 1.9vh;
+        margin-left: 1.5vw;
+        font-size: 3.3vh;
+        font-weight: 700;
+    }
+      
+    h2 {
+        font-size: 3.3vh;
+        font-weight: 700;
+    }
+       
+    h4 {
+        font-size: 2.4vh;
+        font-weight: 800;        
+    } 
+
+    p {
+        font-size: 2.35vh;
+        font-weight: 600;
+    }
+
+    a {
+        font-size: 2.6vh;
+    }
+
+    input, span, h3 {
+        font-size: 2.6vh;
+        font-weight: 700;    
+    }
+
+    button {
+        font-size: 2.4vh;
+        font-weight: 800;
+    }
+
+
+    /* header css pour mobiles*/
+    header {                
+        flex-direction: column;
+        text-align: center;                 
+    } 
+
+    .logo {
+        transform: scale(0.5);
+        padding-left: 32vw;
+        padding-top: 0vh;
+    }
+
+    .navbar {
+        width:100%;        
+    }
+
+    .navbar a {
+        padding-top: 0.5vh;
+        border-bottom: 3px var(--dk-grey) solid;        
+        padding-bottom: 1.7vh;
+    }
+
+    .navbar a:hover { 
+        border-bottom: 3px var(--blue) solid;
+        border-top: 0px;
+        padding-top: 1vh;
+        padding-bottom: 1.7vh;        
+    }
+
+    .a-left {
+        padding-left: 1vw;
+    }
+    
+    .a-right {
+        padding-right: 0.8vw; 
+    }
+
+
+    /* section id recherche pour mobiles  */
+
+    #recherche {       
+        padding-right: 3.8vw;
+        padding-left: 5vw; 
+        width: auto;          
+    }
+
+    #recherche p {        
+        margin-left: 1.8vw;
+    }
+    
+    .form-group {
+        margin-top: 5.3vh;
+        margin-left: vw;
+   }
+    
+    #here {
+        padding: 2.4vh 5vw;
+    }
+    input{
+        width: 12em;
+        border-radius: 0 10px 10px 0;
+    }
+    placeholder{
+        align-self: center;
+        justify-self: flex-start;
+    }
+    .form-group .fas {
+        font-size: 2.7vh;
+    }
+    
+    .search input {
+        padding: 2.1vh 8vw;
+        z-index: 1;
+    }
+
+    #bouton {
+        border-radius: 30%;
+        margin-left: -2em;
+        z-index:2;
+        font-size: 1.4vh;
+        padding: 2.3vh 4vw;
+    }
+
+    #search-word {
+       display: none;      
+    }   
+
+    /* sections id filtres css pour mobiles*/
+        
+    #filtres {
+        flex-direction: column;
+    }
+
+    #filtres h3 {
+        margin-left: 2.2vw;
+        margin-bottom: 0.9vh;
+    }
+
+    .filter {
+        margin: 6px;
+    }
+
+    .round-icon {        
+        height: 7.5vh;
+        width: 8vw;
+    }
+        
+    .filter-button {    
+        padding: 2.3vh 3.8vw 1.8vh 16vw;
+        margin-bottom: -0.4vh;
+    }
+
+
+    /*section class info css pour mobiles*/
+
+    .info {
+        padding-top: 4vh;
+        align-items: baseline;        
+    }
+
+    .info .fas {
+        font-size: 1.8vh;
+    }
+
+    .info-icon {  
+        height: 3.4vh;
+    }
+
+    .info p {
+        padding-left: 1.2vw;
+        line-height: 3vh;
+    }   
+    
+    
+ /*section id hébergement css pour mobiles */
+    #hebergements {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #main:nth-child(1) {
+        order: 2; 
+        width: 100%;   
+        margin: auto;    
+    }
+
+    #main h2 {
+        margin-top: 7%;
+        margin-bottom: 2%;
+        margin-left: 4%;
+    }
+
+    #main h3 {
+        margin-left: 4%;
+    }
+
+    aside:nth-child(2) {
+        order: 1;
+    }
+
+    .fa-star {        
+        font-size: 1.85vh;
+    }
+    
+    .card-top {
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .img-top {
+        height: 17.5vh;
+        width:auto;
+    }
+
+    .cover {        
+        width: 100%;
+        height: 17vh;
+    }
+
+    .card-body {
+        padding-bottom: 2%;
+        padding-left: 2%;
+        padding-top: 2%;
+    }
+
+    .card-body p {
+        padding-bottom: 3%;
+        font-size: 2.05vh;
+    }
+
+    
+/*section id popular css pour mobiles */
+
+    aside {
+        width: 100%;
+        margin-top: 6.4%;
+        padding-left: 2%;
+    }
+
+    #popular {
+        margin: 4% 0% 3% 3%;
+    }
+
+    .fa-chart-line {
+        font-size: 3.3vh;
+    }
+
+    .card-aside {
+        width: 90vw;
+        height: 21.5vh;     
+    }
+
+    .img-left {
+        height: 20vh;
+        width: 35vw;
+    }
+
+    .soleil {
+        height: 20vh;
+        width: 40vw;
+        object-position: 70% 50%;      
+    }
+
+    .coeur {
+        height: 20vh;
+        width: 40vw;  
+        object-position: 100% 50%;       
+    }
+
+    .blanc {
+        height: 20vh;
+        width: 40vw;
+    }
+    
+    .description {
+        padding-left: 4.5%;
+        padding-top: 7.7%;
+        width: 50vw;
+    }
+
+    
+    .description p {
+        font-size: 2.05vh;
+        margin-left: 0%;
+        margin-top: 5.2%;
+        margin-bottom: 7.5%;
+    }
+
+    .bloc {
+        margin-bottom: 5%;
+    }
+        
+/*section id activités css pour mobiles */
+
+    #activites {
+        width: 100%;
+        margin: auto;
+        padding-left: 1.2%;
+        padding-right: 1.2%;
+    }
+
+    #activites h2 {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    
+    #activites .row {
+        margin-left: 2%;
+    }
+
+    .card {        
+        width: 90vw;
+        height: 28vh;
+        margin: 3%;
+    } 
+    
+    .card .cover {
+        height: 21vh;
+    }
+
+    .card .img-top {
+        height: 21vh;
+        width: 100%;
+    }
+
+    .top {
+        object-position: 50% 15%;
+    }
+
+    .fort {
+        object-position: 50% 40%;
+    }
+    
+    
+  /* footer css pour mobiles */
+
+    footer {
+        flex-direction: column; 
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;  
+        margin-top: 5%; 
+        padding: 5% 5% 10% 5%;  
+    }
+
+    .menu {
+        width:100%;
+    }
+
+    .far {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+}
+
